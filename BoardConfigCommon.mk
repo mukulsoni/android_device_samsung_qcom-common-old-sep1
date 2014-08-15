@@ -14,15 +14,6 @@
 
 BOARD_VENDOR := samsung
 
-# Bootloader
-TARGET_NO_BOOTLOADER := true
-
-# Architecture
-TARGET_ARCH := arm
-TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := armeabi
-TARGET_ARCH_VARIANT := armv7-a-neon
-
 # chargers
 BOARD_CHARGER_RES := device/samsung/qcom-common/charger
 
@@ -32,7 +23,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 # QCOM hardware
 TARGET_QCOM_AUDIO_VARIANT := caf
 TARGET_QCOM_DISPLAY_VARIANT := caf
-BOARD_USES_ALSA_AUDIO := true
 BOARD_USES_LEGACY_QCOM := true
 
 # Use CM PowerHAL by default
